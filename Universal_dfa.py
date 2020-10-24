@@ -1,6 +1,6 @@
 from graphics import *
 from time import sleep
-input()
+
 # ================================ DFA section ================================
 def compiler(string ,delta ,q0 ,final_state):
     state = q0
@@ -35,7 +35,7 @@ stringc = 0
 
 #Get The Delta
 while True:
-    deltatemp = input("Please Enter Ehe #{} Delta :".format(deltac))
+    deltatemp = input("Please Enter the #{} Delta :".format(deltac))
     if deltatemp == "":
         print("\n")
         break
